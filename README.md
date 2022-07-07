@@ -34,8 +34,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Store
-This is a full stack ECommerce application
-<a href="https://store-phi-hazel.vercel.app/">Website</a>
+<a href="https://store-phi-hazel.vercel.app/">This</a> is a full stack ECommerce application
+
 
 <h4>Features</h4>
   <ul>
