@@ -58,7 +58,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     <li> React Context hook to store states; wrap entire app in StateContext component
     <li> Canvas confetti for confetti effect
     <li> Use Vercel to deploy app
-    <li> Use Sanity studio to update database
+    <li> Use Sanity <a href="https://ecommerce-jun.sanity.studio/desk">studio</a> to update database 
   </ul> 
   
 <h4>Problems Encountered</h4>
