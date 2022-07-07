@@ -35,6 +35,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Store
 This is a full stack ECommerce application
+<a href="https://store-phi-hazel.vercel.app/">Website</a>
 
 <h4>Features</h4>
   <ul>
@@ -57,6 +58,7 @@ This is a full stack ECommerce application
     <li> React Context hook to store states; wrap entire app in StateContext component
     <li> Canvas confetti for confetti effect
     <li> Use Vercel to deploy app
+    <li> Use Sanity studio to update database
   </ul> 
   
 <h4>Problems Encountered</h4>
