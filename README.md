@@ -32,3 +32,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Store
+This is a full stack ECommerce application
+
+<h4>Features</h4>
+  <ul>
+    <li> Customizable banner (Change change/update using Sanity)
+    <li> Shopping-Cart feature
+    <li> Individual product page
+    <li> Rotating carousel display of recommended products
+    <li> Toast notification after adding items to cart
+    <li> Checkout with Stripe
+  </ul>
+
+<h4>Lessons Learned</h4>
+  <ul>
+    <li> Next.js framework: file-based routing (for server-side rendering and static websites); api folder serves as server
+    <li> Sanity (backend) for creating schemas and adding new items to database: Connect frontend to Sanity with sanity client
+    <li> Stripe (payment method)
+    <li> Use getServerSideProps to fetch data from API, Next.js will pre-render the page on request using data returned
+    <li> React: Pass component to inside of another component, parent has acess to child component using children prop
+    <li> Next.js getStaticProps -> uses getStaticPaths to define a list of paths to be statically generated
+    <li> React Context hook to store states; wrap entire app in StateContext component
+    <li> Canvas confetti for confetti effect
+    <li> Use Vercel to deploy app
+  </ul> 
+  
+<h4>Problems Encountered</h4>
+  <ul>
+    <li> Product images not showing up on Stripe checkout page
+  </ul>
+
+<h4>Improvements to Add</h4>
+  <ul>
+    <li> Fix cart items swapping order when changing quantities
+  </ul>
+
+<h4>Credits</h4>
+  <ul>
+    <li><a href="https://www.youtube.com/watch?v=4mOkFXyxfsU&t=456">YouTube</a>
+  </ul>
