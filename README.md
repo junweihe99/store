@@ -63,7 +63,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
   
 <h4>Problems Encountered</h4>
   <ul>
-    <li> Product images not showing up on Stripe checkout page
+    <li> Product images not showing up on Stripe checkout page -> Fixed typo on stripe.js
   </ul>
 
 <h4>Improvements to Add</h4>
